@@ -27,24 +27,24 @@ Engineering is about trade-offs and optimization.
 ---
 
 - Microservices is independence!
-  
-  - Runtime
-   - Scale to your own needs
-   - You're now a distributed system
-  
-    You can service requests in whichever way you want, but some team you never heard of can take your service down.
 
-  - Tech
-    - Use the right tool for the job
-    - Expertise is fragmented
+    - Runtime
+      - Scale to your own needs
+      - You're now a distributed system
   
-    You can use Prolog in your microservice, but debugging is done through committee.
+      You can service requests in whichever way you want, but some team you never heard of can take your service down.
 
-  - Structure
-    - Other teams won't impact your internal structure
-    - Any externally-visible structure change becomes a coordination concern
+    - Tech
+      - Use the right tool for the job
+      - Expertise is fragmented
+  
+      You can use Prolog in your microservice, but debugging is done through committee.
 
-    Nobody can make your code slow or clunky, but now you need to have a mailing list for your downstream consumers.
+    - Structure
+      - Other teams won't impact your internal structure
+      - Any externally-visible structure change becomes a coordination concern
+
+      Nobody can make your code slow or clunky, but now you need to have a mailing list for your downstream consumers.
 
   - Customs
     - Freedom to choose your own philosophy
