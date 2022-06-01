@@ -4,7 +4,7 @@ Why microservices by default isn't a great bet.
 
 ---
 
-tl;dr: microservices don't solve problems, they only make them more apparent. Packages are a great alternative.
+tl;dr: microservices don't solve problems, they only make them more apparent. Packages can be a less demanding alternative.
 
 ---
 
@@ -23,6 +23,17 @@ Ad hominem
 ---
 
 Engineering is about trade-offs and optimization.
+
+---
+
+Nightmares: 
+  - Huge codebase
+  - Separation of concerns
+  - Deploying
+  - Scaling
+  - Bulkheading
+
+Let's make them impossible!
 
 ---
 
@@ -59,32 +70,78 @@ Engineering is about trade-offs and optimization.
 
 ---
 
-- Microservices is a tech heavy solution for coordination problems
-  - Not independence, a different type of dependence
-  - Designing a system becomes designing the organization that ships and maintains it.
-  - Conway's law and Inverse Conway maneuvers
-  - Requires immense discipline and choreography
-  - Great if you want to, or need to, outsource competency
-
-XXX asottile's video about Stripe moving off of Python onto Java to make things simpler.
-
----
-
 Microservices is commoditization
 
 Commoditization is the process of converting products or services into standardized, marketable objects.
 
-Inevitable when involving with more than a few hundred engineers.
+Hard to avoid when involving data stewardship with more than a few hundred engineers.
+
+---
+
+- Microservices is a tech heavy solution for coordination problems
+  - Not independence, a different type of dependence
+  - Designing a system becomes designing the organization that ships and maintains it.
+  - Conway's law and Inverse Conway maneuvers
+  - Great if you want/new to outsource competency
+  - Everything is choreography
+
+Choreography is the new nightmare.
 
 ---
 
 Microservices is linking at the network layer
 
----
-
-Packages
-
-Still commoditization, still lots of discipline, a bit more plasticity.
+How about we try linking at the function level?
 
 ---
 
+Packages are the classic commodities
+
+Focused on code, not stewarding data
+
+---
+
+- Packages are dependencies!
+    - Runtime
+      - Constrained to the same process space
+      - Not a distributed system (no more retries or sagas!)
+
+    - Tech
+      - Contained to one ecosystem
+      - Expertise is shared and compounded
+  
+    - Structure
+      - Other teams can impact your internal structure
+      - API changes can each be fully owned by a single party
+
+    - Customs
+      - You need to comply to some practices
+      - Onboarding is much cheaper
+
+    - Scope
+      - It's hard to understand that part of the codebase should do what
+      - Dead code is trivially found with commonplace tooling
+
+---
+
+Nightmares:
+  - Huge codebase
+    - Factor parts out to packages
+  - Separation of concerns
+    - Be diligent about architecture
+  - Deploying
+    - Focus on package bumps
+  - Scaling
+    - Use per-endpoint process pools
+  - Bulkheading
+    - Ration process-level globals
+
+Diligence was the hardest in the old nightmare.
+
+---
+
+Engineering is about trade-offs and optimization.
+
+What's easier to optimize for in your context?
+- Diligence
+- Choreography
