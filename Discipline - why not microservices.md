@@ -4,7 +4,7 @@ Why microservices by default isn't a great bet.
 
 ---
 
-tl;dr: microservices don't solve problems, they only make them more apparent. Packages are an alternative.
+tl;dr: microservices don't solve problems, they only make them more apparent. Packages are a great alternative.
 
 ---
 
@@ -27,7 +27,6 @@ Engineering is about trade-offs and optimization.
 ---
 
 - Microservices is independence!
-
     - Runtime
       - Scale to your own needs
       - You're now a distributed system
@@ -44,13 +43,19 @@ Engineering is about trade-offs and optimization.
       - Other teams won't impact your internal structure
       - Any externally-visible structure change becomes a coordination concern
 
-      Nobody can make your code slow or clunky, but now you need to have a mailing list for your downstream consumers.
+      Nobody can make your code slow or clunky, but now you need to have a mailing list of downstream consumers to change your API.
 
   - Customs
     - Freedom to choose your own philosophy
     - Everyone needs to be onboarded
 
     You can have monoids of endofunctors, but only the indoctrinated will help you.
+
+  - Scope
+    - Have tight codebases that do one thing right
+    - Have many services with various degree of overlap
+
+    You can always spin up new services, but eventually some are left running with no consumers.
 
 ---
 
