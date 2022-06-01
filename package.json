@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "marp Choreography-and-Diligence.md -o slides.html",
+    "build": "node_modules/.bin/marp Choreography-and-Diligence.md -o slides.html",
     "server": "marp . --server"
   },
   "repository": {

@@ -1,0 +1,17 @@
+default_stages: [commit]
+
+repos:
+    - repo: meta
+      hooks:
+          - id: check-hooks-apply
+
+          - id: check-useless-excludes
+
+    - repo: local
+      hooks:
+          - id: build-slides
+            name: Build slides
+            language: system
+            files: Choreography-and-Diligence.md
+            pass_filenames: false
+            entry: npm run-script build
