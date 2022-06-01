@@ -18,7 +18,7 @@ Ad hominem
   - Medium company
   - Decade-old monolith, a few microservices
   - ~50 engineers, ~10 backend, ~10 more contributers from other teams
-- Fractal
+- Trust Fractal
   - Small company
   - Greenfield, lots of microservices
   - ~10 engineers
