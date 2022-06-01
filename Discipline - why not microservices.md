@@ -131,7 +131,7 @@ Nightmares:
   - Huge codebase
     - Factor parts out to packages
   - Separation of concerns
-    - Be diligent about architecture
+    - Be disciplined about architecture
   - Deploying
     - Focus on package bumps
   - Scaling
@@ -139,12 +139,12 @@ Nightmares:
   - Bulkheading
     - Ration process-level globals
 
-Diligence was the hardest in the old nightmare.
+Discipline was the hardest in the old nightmare.
 
 ---
 
 Engineering is about trade-offs and optimization.
 
 What's easier to optimize for in your context?
-- Diligence
+- Discipline
 - Choreography
