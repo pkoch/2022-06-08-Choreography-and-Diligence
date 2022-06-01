@@ -10,15 +10,17 @@ tl;dr: microservices don't solve problems, they only make them more apparent. Pa
 
 Ad hominem
 
-- Microservices na Yelp
-  - Big established company with its own decade-old monolith, 300 to 500 engineers
-  - Big monolith was being broken to pieces when I came in.
-  - Search was the first one, other followed
-  - Everyone loved being on a microservice to avoid the painful deployment process
-- Microservices na Fractal
-  - Small startup with ~10 engineers
-- Pacotes da Doist
-  - Medium start-up, 50 engineers, ~10 backend, ~10 more contributers from other teams
+- Yelp
+  - Big company
+  - Decade-old monolith
+  - ~400 engineers
+- Doist
+  - Medium company
+  - ~50 engineers, ~10 backend, ~10 more contributers from other teams
+- Fractal
+  - Small company
+  - Greenfield
+  - ~10 engineers
 
 ---
 
