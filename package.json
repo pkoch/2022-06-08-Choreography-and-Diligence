@@ -1,0 +1,25 @@
+{
+  "name": "79b3df75767a4e54d33ffa72e9180486",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "marp Choreography-and-Diligence.md",
+    "server": "marp . --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/79b3df75767a4e54d33ffa72e9180486.git"
+  },
+  "author": "Paulo Köch <hi@pko.ch>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/79b3df75767a4e54d33ffa72e9180486"
+  },
+  "homepage": "https://gist.github.com/79b3df75767a4e54d33ffa72e9180486",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.0.0",
+    "markdownlint": "^0.25.1"
+  },
+  "dependencies": {}
+}
