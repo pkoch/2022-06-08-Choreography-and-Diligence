@@ -73,11 +73,11 @@ Let's make them impossible!
 
 ---
 
-Microservices is commoditization
+Microservices is, eventually, commoditization
 
 Commoditization is the process of converting products or services into standardized, marketable objects.
 
-Hard to avoid when involving data stewardship with more than a few hundred engineers.
+Hard to avoid when involving data stewardship and more than a few hundred engineers.
 
 ---
 
@@ -122,7 +122,7 @@ Focused on code, not stewarding data
       - Onboarding is much cheaper
 
     - Scope
-      - It's hard to understand that part of the codebase should do what
+      - It's hard to understand which part of the codebase should do what
       - Dead code is trivially found with commonplace tooling
 
 ---
@@ -131,7 +131,7 @@ Nightmares:
   - Huge codebase
     - Factor parts out to packages
   - Separation of concerns
-    - Be disciplined about architecture
+    - Be diligent about architecture
   - Deploying
     - Focus on package bumps
   - Scaling
@@ -139,12 +139,12 @@ Nightmares:
   - Bulkheading
     - Ration process-level globals
 
-Discipline was the hardest in the old nightmare.
+Diligence was the hardest in the old nightmare.
 
 ---
 
 Engineering is about trade-offs and optimization.
 
 What's easier to optimize for in your context?
-- Discipline
+- Diligence
 - Choreography
