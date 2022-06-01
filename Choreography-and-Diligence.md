@@ -11,7 +11,7 @@ Why microservices by default isn't a great bet.
 
 ---
 
-**tl;dr**: microservices don't solve problems, they only make them more apparent.
+**tl;dr**: microservices don't solve problems, they only make them obvious.
 Packages can be a less demanding alternative.
 
 ---
@@ -79,6 +79,8 @@ heard of can take your service down.
 - Use the right tool for the job
 - Expertise is fragmented
 
+<!-- - You're now on call. -->
+
 You can use Prolog in your microservice, but debugging is done through
 committee.
 
@@ -118,12 +120,18 @@ indoctrinated will help you.
 You can always spin up new services, but eventually some are left running
 with no consumers.
 
+<!--
+Different systems will have different assurances. When people can't convince
+someone to add a feature to some sevice, they might very well fork it and
+implement that thing in the new fork.
+-->
+
 ---
 
 # Microservices are: eventually, commoditization
 
-Commoditization is the process of converting products or services into
-standardized, marketable objects.
+*Commoditization is the process of converting products or services into
+**standardized**, marketable objects.*
 
 Hard to avoid when involving data stewardship and more than a few hundred engineers.
 
@@ -133,21 +141,19 @@ Hard to avoid when involving data stewardship and more than a few hundred engine
 
 - Not independence, a different type of dependence.
 - Infra platform and language platform teams become a thing.
-- Designing a system becomes designing the organization that ships and
-  maintains it.
 - Conway's law and Inverse Conway maneuvers
-- Great if you want/need to outsource competency!
+- Great for outsourcing competency!
 - Everything becomes choreography.
 
 ---
 
-🩰
+# - Everything becomes choreography.
 
 &nbsp;
 
 ---
 
-🩰
+# - Everything becomes choreography.
 
 Choreography is the new nightmare.
 
@@ -186,8 +192,17 @@ How about we try linking at the function level?
 
 ## Tech
 
+<!--
+You can still import alien code through JNI, FFI, dynamic libraries, etc. But
+you're now constrained to your ecosystem. Like Erlang? Too bad! JNI takes a
+bunch of time on the first run? Too bad! Need to translate the in-memory
+representation at the boundary? Too bad!
+-->
 - Contained to one ecosystem
 - Expertise is shared and compounded
+<!--
+This essentially means there's only a single "language plarform" team.
+-->
 
 ---
 
@@ -196,7 +211,7 @@ How about we try linking at the function level?
 ## Structure
 
 - Everyone needs to be dilligent about boundaries
-- Types! Chaging APIs in a codebase is a well-solved problem
+- Chaging APIs in a codebase is a well-solved problem
 
 ---
 
@@ -231,6 +246,10 @@ How about we try linking at the function level?
 - Deploying
 - Scaling
 - Bulkheading
+
+&nbsp;
+
+We still need to get out of them.
 
 ---
 
@@ -305,9 +324,9 @@ Diligence is the new nightmare.
 What's easier to optimize in your context?
 
 - Choreography
-  - Always go through the motions
+  - Go through the motions for **all** dependencies
 - Diligence
-  - Always educate yourself and **all** your peers
+  - Educate yourself and **all** your peers
 
 ---
 
