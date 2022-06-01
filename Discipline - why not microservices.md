@@ -12,14 +12,15 @@ Ad hominem
 
 - Yelp
   - Big company
-  - Decade-old monolith
+  - Decade-old monolith, lots of microservices
   - ~400 engineers
 - Doist
   - Medium company
+  - Decade-old monolith, a few microservices
   - ~50 engineers, ~10 backend, ~10 more contributers from other teams
 - Fractal
   - Small company
-  - Greenfield
+  - Greenfield, lots of microservices
   - ~10 engineers
 
 ---
