@@ -85,7 +85,7 @@ Hard to avoid when involving data stewardship and more than a few hundred engine
   - Not independence, a different type of dependence
   - Designing a system becomes designing the organization that ships and maintains it.
   - Conway's law and Inverse Conway maneuvers
-  - Great if you want/new to outsource competency
+  - Great if you want/need to outsource competency
   - Everything is choreography
 
 Choreography is the new nightmare.
