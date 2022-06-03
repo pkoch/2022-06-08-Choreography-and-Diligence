@@ -3,6 +3,12 @@ title: Choreography and Diligence
 description: Why microservices by default isn't a great bet.
 author: Paulo Köch <hi@pko.ch>
 url: https://pko.ch/talks/2022-06-08-Choreography-and-Diligence/
+style: |
+    img[alt~="bottom-right"] {
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+    }
 ---
 
 # Choreography and Diligence
@@ -11,8 +17,10 @@ Why microservices by default isn't a great bet.
 
 ---
 
-**tl;dr**: microservices don't solve problems, they only make them obvious.
-Packages can be a less demanding alternative.
+## tl;dr
+
+- Microservices are better at making problems obvious then solving them.
+- Packages can be a less demanding alternative.
 
 ---
 
@@ -267,7 +275,7 @@ We still need to get out of them.
 ## Separation of concerns
 
 - Be diligent about architecture
-- Laborious, not easy
+- Laborious, **not** easy
 
 ---
 
@@ -294,7 +302,7 @@ We still need to get out of them.
 ## Bulkheading
 
 - Be diligent about process-level globals and in-process dependencies
-- Light-touch, not easy
+- Light-touch, **not** easy
 
 ---
 
@@ -323,10 +331,16 @@ Diligence is the new nightmare.
 
 What's easier to optimize in your context?
 
-- Choreography
-  - Go through the motions for **all** dependencies
-- Diligence
-  - Educate yourself and **all** your peers
+- Choreography: go through the motions for **all** dependencies
+- Diligence: educate and commit yourself and **all** your peers
+
+## Intrinsic complexity isn't removable, only focusable
+
+> *What makes you think you're not going to make a mess out
+> of \[microservices\]?*
+> -- Kevlin Henney, [Managing Complexity in Software](https://youtu.be/P7CfWtR-ECk?t=1371)
+
+![bottom-right](./microservices_mess.png)
 
 ---
 
