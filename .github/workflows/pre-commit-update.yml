@@ -1,4 +1,4 @@
-name: 'Auto-update: pre-commit'
+name: 'Pre-commit: autoupdate'
 
 on:
     # every monday at midnight
