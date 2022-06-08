@@ -349,7 +349,7 @@ What's easier to optimize in your context?
 
 > *What makes you think you're not going to make a mess out
 > of \[microservices\]?*
-> -- Kevlin Henney, [Managing Complexity in Software](https://youtu.be/P7CfWtR-ECk?t=1371)
+> -- Kevlin Henney, [Managing Complexity in Software](https://youtu.be/P7CfWtR-ECk?t=1350)
 
 ![bottom-right](./microservices_mess.png)
 
