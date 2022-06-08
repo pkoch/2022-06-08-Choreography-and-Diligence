@@ -20,6 +20,5 @@
   "devDependencies": {
     "@marp-team/marp-cli": "^2.0.0",
     "markdownlint": "^0.25.1"
-  },
-  "dependencies": {}
+  }
 }
