@@ -16,6 +16,8 @@ npm i
 npm run-script server
 ```
 
+The main file is [slides.md](slides.md).
+
 ## Build
 
 ```bash
