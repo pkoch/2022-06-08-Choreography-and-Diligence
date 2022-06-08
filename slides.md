@@ -19,7 +19,7 @@ Why microservices by default isn't a great bet.
 
 ## tl;dr
 
-- Microservices are better at making problems obvious then solving them.
+- Microservices are better at making problems obvious than solving them.
 - Packages can be a less demanding alternative.
 
 ---
