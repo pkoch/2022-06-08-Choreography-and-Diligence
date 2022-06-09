@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "LANG=en-US node_modules/.bin/marp slides.md -o slides.html",
-    "server": "marp . --server"
+    "watch": "marp slides.md --watch"
   },
   "repository": {
     "type": "git",

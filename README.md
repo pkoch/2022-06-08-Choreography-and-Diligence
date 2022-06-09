@@ -10,19 +10,33 @@ cd 2022-06-08-Choreography-and-Diligence
 npm i
 ```
 
+There's a [pre-commit](https://pre-commit.com/) hook to make sure you don't
+forget to build before you commit. If you're using pre-commit, run:
+
+```bash
+pre-commit install
+```
+
 ## Code
 
 ```bash
-npm run-script server
+npm run-script watch & (sleep 1; open slides.html); fg
 ```
 
 The main file is [slides.md](slides.md).
 
 ## Build
 
+The `watch` script adds an auto-reload mechanism to `slides.html`. We don't
+want that in our final build.
+
+After you're done editing, run
+
 ```bash
 npm run-script build
 ```
+
+and commit your files.
 
 ## Published
 
