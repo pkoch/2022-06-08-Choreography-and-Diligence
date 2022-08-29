@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "LANG=en-US node_modules/.bin/marp slides.md -o slides.html",
+    "build": "LANG=en-US marp slides.md -o slides.html",
     "watch": "marp slides.md --watch"
   },
   "repository": {
