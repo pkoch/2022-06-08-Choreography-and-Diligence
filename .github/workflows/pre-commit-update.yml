@@ -4,7 +4,8 @@ on:
   # every monday at midnight
   schedule:
     - cron: "0 0 * * 1"
-  workflow_dispatch:
+  push:
+    branches: [master]
 
 jobs:
   auto-update:
