@@ -19,6 +19,6 @@
   "homepage": "https://gist.github.com/79b3df75767a4e54d33ffa72e9180486",
   "devDependencies": {
     "@marp-team/marp-cli": "^2.4.0",
-    "markdownlint": "^0.29.0"
+    "markdownlint": "^0.31.1"
   }
 }
