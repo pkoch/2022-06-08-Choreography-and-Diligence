@@ -1,7 +1,7 @@
 ---
 title: Choreography and Diligence
 description: Why microservices by default isn't a great bet.
-author: Paulo Köch <hi@pko.ch>
+author: Paulo Koch <hi@pko.ch>
 url: https://pko.ch/talks/2022-06-08-Choreography-and-Diligence/
 style: |
     img[alt~="bottom-right"] {
@@ -26,7 +26,7 @@ Why microservices by default isn't a great bet.
 
 # Ad hominem
 
-Paulo Köch - <https://pko.ch/> <!-- I've been programming for 15 years, and I've worked in enough different environments with microservices. -->
+Paulo Koch - <https://pko.ch/> <!-- I've been programming for 15 years, and I've worked in enough different environments with microservices. -->
 
 - Yelp
   - Big company: ~400 engineers
