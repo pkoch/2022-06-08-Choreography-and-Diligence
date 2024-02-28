@@ -7,7 +7,7 @@
 ```bash
 git clone git@github.com:pkoch/2022-06-08-Choreography-and-Diligence.git
 cd 2022-06-08-Choreography-and-Diligence
-npm i
+pnpm i
 ```
 
 There's a [pre-commit](https://pre-commit.com/) hook to make sure you don't
@@ -20,7 +20,7 @@ pre-commit install
 ## Code
 
 ```bash
-npm run-script watch & (sleep 1; open slides.html); fg
+pnpm watch & (sleep 1; open slides.html); fg
 ```
 
 The main file is [slides.md](slides.md).
@@ -33,7 +33,7 @@ want that in our final build.
 After you're done editing, run
 
 ```bash
-npm run-script build
+pnpm build
 ```
 
 and commit your files.
