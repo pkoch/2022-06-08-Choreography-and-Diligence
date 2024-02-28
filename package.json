@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "pnpm": ">=8"
+  },
   "scripts": {
     "build": "LANG=en-US marp slides.md -o slides.html",
     "watch": "marp slides.md --watch"
