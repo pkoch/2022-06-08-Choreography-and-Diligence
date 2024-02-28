@@ -16,6 +16,8 @@ jobs:
         with:
           version: 8
       - uses: actions/setup-node@v4
+        with:
+          cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
 
       - uses: actions/setup-python@v5
