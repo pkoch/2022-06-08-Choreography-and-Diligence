@@ -1,5 +1,5 @@
 {
-  "name": "79b3df75767a4e54d33ffa72e9180486",
+  "name": "2022-06-08-choreography_and_diligence",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gist.github.com/79b3df75767a4e54d33ffa72e9180486.git"
+    "url": "git@github.com:pkoch/2022-06-08-Choreography-and-Diligence.git"
   },
   "author": "Paulo Koch <hi@pko.ch>",
   "license": "ISC",
   "bugs": {
-    "url": "https://gist.github.com/79b3df75767a4e54d33ffa72e9180486"
+    "url": "https://github.com/pkoch/2022-06-08-Choreography-and-Diligence/issues"
   },
-  "homepage": "https://gist.github.com/79b3df75767a4e54d33ffa72e9180486",
+  "homepage": "https://github.com/pkoch/2022-06-08-Choreography-and-Diligence",
   "devDependencies": {
     "@marp-team/marp-cli": "^3.3.1",
     "markdownlint": "^0.33.0"
