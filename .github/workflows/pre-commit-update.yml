@@ -13,18 +13,23 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: pnpm/action-setup@v4
+
       - uses: actions/setup-node@v4
         with:
           cache: 'pnpm'
+
       - run: pnpm install --frozen-lockfile
 
       - uses: actions/setup-python@v5
+
       - uses: pre-commit/action@v3.0.1
         with:
           extra_args: --all-files
 
       - run: pip install pre-commit
+
       - run: pre-commit autoupdate
+
       - run: pre-commit run --all
 
       - uses: peter-evans/create-pull-request@v4
