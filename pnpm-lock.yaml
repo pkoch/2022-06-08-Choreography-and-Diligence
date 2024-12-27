@@ -38,8 +38,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  '@marp-team/marp-core@3.9.0':
-    resolution: {integrity: sha512-gi6nq0rsB1oMA8ReppW4XxmS4fisQiAsD0ZoUgLeG4h6SWatveCAA7fZyxnXfwA2UC8pNb7ktPqYdRsxvuwntA==}
+  '@marp-team/marp-core@3.9.1':
+    resolution: {integrity: sha512-/GOecdgt0HmvFnC/C2flxPfUVgLMNE8lP8UAvjlFfWyeB9hyNBP5k1N2Wnx0mXPU8UHpDzYdySDxIR+ki2p8Fw==}
     engines: {node: ^12.20 || ^14.13.1 || >=16}
 
   '@marp-team/marpit-svg-polyfill@2.1.0':
@@ -987,7 +987,7 @@ snapshots:
 
   '@marp-team/marp-cli@3.4.0':
     dependencies:
-      '@marp-team/marp-core': 3.9.0
+      '@marp-team/marp-core': 3.9.1
       '@marp-team/marpit': 2.6.1
       chokidar: 3.6.0
       cosmiconfig: 8.3.6
@@ -1003,7 +1003,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@marp-team/marp-core@3.9.0':
+  '@marp-team/marp-core@3.9.1':
     dependencies:
       '@marp-team/marpit': 2.6.1
       '@marp-team/marpit-svg-polyfill': 2.1.0(@marp-team/marpit@2.6.1)
