@@ -20,7 +20,7 @@
   "homepage": "https://github.com/pkoch/2022-06-08-Choreography-and-Diligence",
   "devDependencies": {
     "@marp-team/marp-cli": "^4.0.4",
-    "markdownlint": "^0.37.2"
+    "markdownlint": "^0.37.4"
   },
   "packageManager": "pnpm@9.15.1+sha256.9e534e70afef06374f6126b44bda5760947135ce16a30aef1010e965fb7e3e3e"
 }
