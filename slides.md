@@ -59,7 +59,7 @@ Let's make them impossible!
 
 # Microservices!
 
-![bg fit right:63%](clippy.png)
+![bg fit right:62%](clippy.png)
 
 ---
 

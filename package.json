@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {"node":"~20.9.0","pnpm":"~9.15.1"},
+  "engines": {
+    "node": "~20.9.0",
+    "pnpm": "~9.15.1"
+  },
   "scripts": {
     "build": "LANG=en-US marp slides.md -o slides.html",
     "watch": "marp slides.md --watch"
@@ -19,8 +22,8 @@
   },
   "homepage": "https://github.com/pkoch/2022-06-08-Choreography-and-Diligence",
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.0.4",
-    "markdownlint": "^0.37.2"
+    "@marp-team/marp-cli": "^4.1.1",
+    "markdownlint": "^0.37.4"
   },
   "packageManager": "pnpm@9.15.1+sha256.9e534e70afef06374f6126b44bda5760947135ce16a30aef1010e965fb7e3e3e"
 }
