@@ -1,32 +1,52 @@
-<!DOCTYPE html><html><header>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
   <title>pko.ch/talks</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</header><body>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
 
-<h1><a href="/">pko.ch</a>/<a href="..">talks</a>/2022-06-08: Choreography-and-Diligence</h1>
+<body>
+  <button id="theme-toggle" class="theme-toggle">🌙</button>
 
-<p>
-A lecture I gave, on 2022-06-08 for the <a href="https://archive.ph/bMx3e">2022 course of Software Systems Architecture</a>, highlighting the trade-offs of microservices and proposing instead using packages as boundaries.
+  <header role="banner">
+    <h1>
+      <a href="/" aria-label="Home page">pko.ch</a> /
+      <a href=".." aria-label="All talks">talks</a> /
+      <span>2022-06-08: Choreography-and-Diligence</span>
+    </h1>
+  </header>
 
-<p>
-I start the lecture in Portuguese, but I switch to English at 0:21.
+  <main role="main">
+    <p>
+      A lecture I gave, on 2022-06-08 for the <a href="https://archive.ph/bMx3e">2022 course of Software Systems
+        Architecture</a>, highlighting the trade-offs of microservices and proposing instead using packages as
+      boundaries.
+    </p>
 
-<ul>
-  <li><a href="./recording.mp4">Recording</a></li>
-  <li><a href="./slides.html">Slides</a></li>
-  <li><a href="https://github.com/pkoch/2022-06-08-Choreography-and-Diligence">Source</a></li>
-</ul>
+    <p lang="en">
+      I start the lecture in <span lang="pt-PT">Português</span>, but I switch to English at 0:21.
+    </p>
 
-<video
-  style="width:100%;"
-  poster="./poster.jpg"
-  preload="none"
-  controls
-  playsinline
-  webkit-playsinline
->
-  <source src="./recording.mp4" type="video/mp4">
-</video>
+    <nav role="navigation" aria-label="Talk resources">
+      <ul>
+        <li><a href="./recording.mp4">Recording</a></li>
+        <li><a href="./slides.html">Slides</a></li>
+        <li><a href="https://github.com/pkoch/2022-06-08-Choreography-and-Diligence">Source</a></li>
+      </ul>
+    </nav>
 
-</body></html>
+    <figure>
+      <video style="width:100%;" poster="./poster.jpg" preload="none" controls playsinline webkit-playsinline
+        aria-labelledby="video-title" aria-describedby="video-desc">
+        <source src="./recording.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </figure>
+  </main>
+
+</body>
+
+</html>
