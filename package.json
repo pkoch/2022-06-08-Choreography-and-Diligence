@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "~25.9.0",
-    "pnpm": "~9.15.1"
+    "bun": ">=1.3.13"
   },
   "scripts": {
     "build": "LANG=en-US marp slides.md -o slides.html",
@@ -25,5 +24,5 @@
     "@marp-team/marp-cli": "^4.3.1",
     "markdownlint": "^0.40.0"
   },
-  "packageManager": "pnpm@9.15.1+sha256.9e534e70afef06374f6126b44bda5760947135ce16a30aef1010e965fb7e3e3e"
+  "packageManager": "bun@1.3.13"
 }
