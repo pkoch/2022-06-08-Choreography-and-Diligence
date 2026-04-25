@@ -1,17 +1,15 @@
-default_stages: [pre-commit]
-
 repos:
-    - repo: meta
-      hooks:
-          - id: check-hooks-apply
+  - repo: meta
+    hooks:
+      - id: check-hooks-apply
 
-          - id: check-useless-excludes
+      - id: check-useless-excludes
 
-    - repo: local
-      hooks:
-          - id: build-slides
-            name: Build slides
-            language: system
-            files: slides.(md|html)
-            pass_filenames: false
-            entry: bun run build
+  - repo: local
+    hooks:
+      - id: build-slides
+        name: Build slides
+        language: system
+        files: slides.(md|html)
+        pass_filenames: false
+        entry: bun run build
