@@ -4,5 +4,8 @@
     "config:recommended",
     "schedule:weekly",
     ":maintainLockFilesWeekly"
-  ]
+  ],
+  "pre-commit": {
+    "enabled": true
+  }
 }
